@@ -47,3 +47,41 @@ LIGHT:<br/>
 </div>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ssda</title>
+	<style type="text/css">
+     span{
+     	font-size: 16pt;
+     	font-family: arial,helvetica,sans-serif;
+       padding: 20px;
+     }
+	</style>
+	<script type="text/javascript">
+      function toggle(){
+         var myElement=document.getElementById("id1");
+         if(myElement.style.backgroundColor=='red'){
+         	myElement.style.backgroundColor='yellow';
+         	myElement.style.color='white';
+         }else{
+         	myElement.style.backgroundColor='red';
+         	myElement.style.color='white';
+         }
+
+      }
+      window.onload=function(){
+      	document.getElementById("btn1").onclick=toggle;
+      }
+	</script>
+</head>
+<body>
+<span id="id1">dsaa sdas d a</span>
+<input type="button" id="btn1" value="Toggle">
+</body>
+</html>
+
+
+
