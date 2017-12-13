@@ -33,7 +33,12 @@ window.onload=function(){
 		document.getElementById("div1").style.background="radial-gradient(at top left,white,red)";
 		document.getElementById("div2").style.boxShadow="0px -10px 10px yellow";
 	}
+	document.getElementById("btn3").onclick=function(){
+		document.getElementById("div1").style.background="radial-gradient(at top left,white,red)";
+		document.getElementById("div2").style.boxShadow="0px -10px 10px yellow";
 }
+	
+	
 </script>
 </head>
 <body>
@@ -43,6 +48,7 @@ LIGHT:<br/>
 <input type="button" id="btn1" value="Top Left"><br/>
 <input type="button" id="btn2" value="Top Right"><br/>
 <input type="button" id="btn3" value="Bottom"><br/>
+<input type="button" id="btn4" value="Bottom"><br/>	
 </div>
 </div>
 </body>
